@@ -11,10 +11,10 @@ st.title("Detecção de Câncer de Pele 🩺")
 st.write("Utilizando Inteligência Artificial para auxiliar no diagnóstico.")
 
 # --- CONFIGURAÇÃO DO MODELO ---
-MODEL_FILE = 'best_model_ResNet50.keras' 
+MODEL_FILE = 'best_model_MobileNetV2.keras' 
 
 # COLOCA O TEU ID DO GOOGLE DRIVE AQUI DENTRO DAS ASPAS:
-file_id = '1gaekLtSkAKR7eBh71y0Yrk0QafWKNX5_' 
+file_id = '1OdByMyDiJVSH3eWSzU4Pe2-2pJlA0k8i' 
 
 # URL de download direto do Google Drive
 url = f'https://drive.google.com/uc?id={file_id}'
